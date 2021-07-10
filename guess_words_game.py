@@ -1,6 +1,6 @@
 list_of_names = ['Elnaz', 'Sanaz', 'Farnaz',
                  'Hamid', 'Fariba', 'Hassan', 'Elyas', 'Setia']
-correct_guess = 'setia'
+correct_guess = list_of_names[3]
 print(list_of_names)
 your_geuss = input('Please enter your guess word:\n')
 for i in range(5):
