@@ -13,8 +13,6 @@
 ###################################################################
 # If a number % between (2, one before itself) == 0 then NOT PRIME
 ###################################################################
-
-
 is_prime = True
 user_input = int(input('Enter number: '))
 for i in range(2, user_input):
