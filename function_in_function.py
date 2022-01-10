@@ -35,3 +35,10 @@ print(make_title(user_name))
 print(split_string(user_name))
 print(make_upper_the_first_words(user_name))
 print(seperate_and_add(user_name))
+
+''''
+Elnaz Dehkharghani
+elnaz
+ELNAZ
+elnaz Hello
+'''
