@@ -28,11 +28,6 @@ class Teacher(Person):
         return f'I am {self.lname} and I teach in {self.university} in the {self.department} department'
 
 
-
-
-
-
-
 student1 = Student('Elnaz', 'Dehkharghani', 'Data Science', 'SRH')
 print(student1.intruduce()) # This is Elnaz Dehkharghani , I am studing Data Science at SRH
 
