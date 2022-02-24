@@ -9,11 +9,11 @@ class Circle:
 
     def cal_circumference(self):
         # return 2 * self.pi * self.r   # use self.pi -> check in instance -> changeable
-        # return 2 * Circle.pi * self.r  # use Circle.pi -> check in Class -> Not changeable
+        return 2 * Circle.pi * self.r  # use Circle.pi -> check in Class -> Not changeable
 
     def cal_area(self):
         # return self.pi * (self.r **2)
-        # return Circle.pi * (self.r **2)
+        return Circle.pi * (self.r **2)
 
 
 circle1 = Circle(5)
